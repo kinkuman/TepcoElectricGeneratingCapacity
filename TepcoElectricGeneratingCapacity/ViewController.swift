@@ -149,30 +149,4 @@ class ViewController: UIViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
-    
-    
-//    func makeCircleChart(value:Double,denominator:Double) -> UIImage {
-//        
-//        UIGraphicsBeginImageContext(CGSize(width: 300, height: 300))
-//        
-//        // 円の360を最大値で割って割合を出す
-//        let raito = 360.0/denominator
-//        
-//        // 消費量の割合
-//        let consumeValue = value * raito
-//        
-//        // 円弧を描く
-//        
-//        // 開始は時計でいう12時ぴったりとする
-//        let startAngle = -Double.pi/2
-//        
-//        
-//        
-//        
-//        let image = UIGraphicsGetImageFromCurrentImageContext()
-//        
-//        UIGraphicsEndImageContext()
-//        
-//        return image
-//    }
 }
